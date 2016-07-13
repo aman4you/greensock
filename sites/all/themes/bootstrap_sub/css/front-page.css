@@ -1,5 +1,5 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-/* line 3, ../sass/main.scss */
+/* line 3, ../sass/front-page.scss */
 html,
 button,
 input,
@@ -8,25 +8,25 @@ textarea {
   color: #222;
 }
 
-/* line 11, ../sass/main.scss */
+/* line 11, ../sass/front-page.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 16, ../sass/front-page.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 21, ../sass/front-page.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 26, ../sass/main.scss */
+/* line 26, ../sass/front-page.scss */
 hr {
   display: block;
   height: 1px;
@@ -36,7 +36,7 @@ hr {
   padding: 0;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 35, ../sass/front-page.scss */
 audio,
 canvas,
 img,
@@ -44,19 +44,19 @@ video {
   vertical-align: middle;
 }
 
-/* line 42, ../sass/main.scss */
+/* line 42, ../sass/front-page.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 48, ../sass/front-page.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 52, ../sass/front-page.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -67,12 +67,12 @@ textarea {
 /* ===== ScrollMagic Class ==============================================
    Author: Petr Tichy - ihatetomatoes.net
    ========================================================================== */
-/* line 65, ../sass/main.scss */
+/* line 65, ../sass/front-page.scss */
 body {
   font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
 }
 
-/* line 69, ../sass/main.scss */
+/* line 69, ../sass/front-page.scss */
 .wrapper {
   width: 90%;
   margin: 0 5%;
@@ -82,7 +82,7 @@ body {
    Author's custom styles
    ========================================================================== */
 /* =Main */
-/* line 78, ../sass/main.scss */
+/* line 78, ../sass/front-page.scss */
 #intro {
   height: 100vh;
   background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
@@ -91,7 +91,7 @@ body {
   position: relative;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 85, ../sass/front-page.scss */
 #intro .content {
   position: absolute;
   top: 50%;
@@ -99,7 +99,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* line 91, ../sass/main.scss */
+/* line 91, ../sass/front-page.scss */
 .project {
   text-align: center;
   padding: 200px 0;
@@ -109,47 +109,47 @@ body {
   transition: all 1s ease-out;
 }
 
-/* line 99, ../sass/main.scss */
+/* line 99, ../sass/front-page.scss */
 .project.fade-in {
   opacity: 1;
   /*transform: translateY(0);*/
 }
 
-/* line 103, ../sass/main.scss */
+/* line 103, ../sass/front-page.scss */
 .project img {
   width: 180px;
   height: 180px;
 }
 
-/* line 107, ../sass/main.scss */
+/* line 107, ../sass/front-page.scss */
 .project p {
   max-width: 300px;
   margin: 0 auto;
   color: #294D67;
 }
 
-/* line 112, ../sass/main.scss */
+/* line 112, ../sass/front-page.scss */
 #project01 h2 {
   color: #3DB3CE;
 }
 
-/* line 115, ../sass/main.scss */
+/* line 115, ../sass/front-page.scss */
 #project02 h2 {
   color: #75C695;
 }
 
-/* line 118, ../sass/main.scss */
+/* line 118, ../sass/front-page.scss */
 #project03 h2 {
   color: #F5876F;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 121, ../sass/front-page.scss */
 #main {
   position: relative;
   background-color: #FFF;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 125, ../sass/front-page.scss */
 .bcg-parallax {
   padding: 150px 0;
   color: #fff;
@@ -159,7 +159,7 @@ body {
   overflow: hidden;
 }
 
-/* line 133, ../sass/main.scss */
+/* line 133, ../sass/front-page.scss */
 .bcg {
   background: url("../img/img_background.jpg") no-repeat;
   background-size: cover;
@@ -171,7 +171,7 @@ body {
   opacity: 0.7;
 }
 
-/* line 143, ../sass/main.scss */
+/* line 143, ../sass/front-page.scss */
 .content-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -181,7 +181,7 @@ body {
 }
 
 /* =Footer */
-/* line 152, ../sass/main.scss */
+/* line 152, ../sass/front-page.scss */
 .footer-container {
   text-align: center;
   font-size: 14px;
@@ -189,21 +189,21 @@ body {
   background-color: #06060d;
 }
 
-/* line 158, ../sass/main.scss */
+/* line 158, ../sass/front-page.scss */
 .footer-container .wrapper {
   width: 80%;
   max-width: none;
   margin: 0 10%;
 }
 
-/* line 163, ../sass/main.scss */
+/* line 163, ../sass/front-page.scss */
 .footer-container h3 {
   margin: 0;
   padding: 20px 0;
   font-weight: normal;
 }
 
-/* line 168, ../sass/main.scss */
+/* line 168, ../sass/front-page.scss */
 .footer-container a {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -229,7 +229,7 @@ body {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 205, ../sass/main.scss */
+/* line 205, ../sass/front-page.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -237,7 +237,7 @@ body {
   *text-indent: -9999px;
 }
 
-/* line 212, ../sass/main.scss */
+/* line 212, ../sass/front-page.scss */
 .ir:before {
   content: "";
   display: block;
@@ -245,13 +245,13 @@ body {
   height: 150%;
 }
 
-/* line 219, ../sass/main.scss */
+/* line 219, ../sass/front-page.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 224, ../sass/main.scss */
+/* line 224, ../sass/front-page.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -263,7 +263,7 @@ body {
   width: 1px;
 }
 
-/* line 235, ../sass/main.scss */
+/* line 235, ../sass/front-page.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -274,24 +274,24 @@ body {
   width: auto;
 }
 
-/* line 245, ../sass/main.scss */
+/* line 245, ../sass/front-page.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 249, ../sass/main.scss */
+/* line 249, ../sass/front-page.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 255, ../sass/main.scss */
+/* line 255, ../sass/front-page.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 259, ../sass/main.scss */
+/* line 259, ../sass/front-page.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -300,7 +300,7 @@ body {
    Print styles
    ========================================================================== */
 @media print {
-  /* line 268, ../sass/main.scss */
+  /* line 268, ../sass/front-page.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -308,48 +308,48 @@ body {
     text-shadow: none !important;
   }
 
-  /* line 275, ../sass/main.scss */
+  /* line 275, ../sass/front-page.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 280, ../sass/main.scss */
+  /* line 280, ../sass/front-page.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 284, ../sass/main.scss */
+  /* line 284, ../sass/front-page.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 288, ../sass/main.scss */
+  /* line 288, ../sass/front-page.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 294, ../sass/main.scss */
+  /* line 294, ../sass/front-page.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 300, ../sass/main.scss */
+  /* line 300, ../sass/front-page.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 304, ../sass/main.scss */
+  /* line 304, ../sass/front-page.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 309, ../sass/main.scss */
+  /* line 309, ../sass/front-page.scss */
   img {
     max-width: 100% !important;
   }
@@ -357,7 +357,7 @@ body {
   @page {
     margin: 0.5cm;
   }
-  /* line 317, ../sass/main.scss */
+  /* line 317, ../sass/front-page.scss */
   p,
   h2,
   h3 {
@@ -365,7 +365,7 @@ body {
     widows: 3;
   }
 
-  /* line 324, ../sass/main.scss */
+  /* line 324, ../sass/front-page.scss */
   h2,
   h3 {
     page-break-after: avoid;
