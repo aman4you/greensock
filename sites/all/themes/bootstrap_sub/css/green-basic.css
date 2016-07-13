@@ -1,0 +1,127 @@
+/* line 1, ../sass/green-basic.scss */
+.page-node-1 {
+  font: 16px/26px 'Open Sans', Helvetica, Helvetica Neue, Arial;
+  background-color: #76c897;
+  color: #2b4d66;
+  padding-bottom: 200px;
+  /* =Header */
+  /* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+  /* ==========================================================================
+     Media Queries
+     ========================================================================== */
+  /* ==========================================================================
+     Helper classes
+     ========================================================================== */
+}
+/* line 7, ../sass/green-basic.scss */
+.page-node-1 h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 35px;
+  line-height: 1.5em;
+}
+/* line 12, ../sass/green-basic.scss */
+.page-node-1 h1 span {
+  display: block;
+}
+/* line 14, ../sass/green-basic.scss */
+.page-node-1 h1 em {
+  background-color: #b1dec7;
+  height: 5px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: -14px;
+}
+/* line 23, ../sass/green-basic.scss */
+.page-node-1 .intro {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 50px;
+  line-height: 1.2em;
+}
+/* line 30, ../sass/green-basic.scss */
+.page-node-1 header {
+  max-width: 500px;
+  padding-top: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 35, ../sass/green-basic.scss */
+.page-node-1 header em {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* line 37, ../sass/green-basic.scss */
+.page-node-1 header img {
+  max-width: 100%;
+  display: block;
+}
+/* line 41, ../sass/green-basic.scss */
+.page-node-1 h2 {
+  background-color: #2b4d66;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0 5px 0 2px;
+  font-size: 20px;
+  padding: 10px 0;
+}
+/* line 50, ../sass/green-basic.scss */
+.page-node-1 .list {
+  list-style: none;
+  text-align: left;
+  margin: 0 5px 0 2px;
+  padding: 0;
+  font-size: 20px;
+}
+/* line 56, ../sass/green-basic.scss */
+.page-node-1 .list a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #2b4d66;
+  background-color: #ebf3f7;
+}
+/* line 62, ../sass/green-basic.scss */
+.page-node-1 .list a span {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: relative;
+  left: 0;
+}
+/* line 67, ../sass/green-basic.scss */
+.page-node-1 .list a:hover {
+  background-color: rgba(235, 243, 247, 0.7);
+}
+/* line 69, ../sass/green-basic.scss */
+.page-node-1 .list a:hover span {
+  left: 8px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 73, ../sass/green-basic.scss */
+.page-node-1 .list li {
+  margin: 0 0 1px 0;
+  padding: 0;
+}
+/* line 80, ../sass/green-basic.scss */
+.page-node-1 .buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+/* line 84, ../sass/green-basic.scss */
+.page-node-1 .buttons button {
+  width: 140px;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+/* line 96, ../sass/green-basic.scss */
+.page-node-1 .hidden {
+  display: none !important;
+  visibility: hidden;
+}

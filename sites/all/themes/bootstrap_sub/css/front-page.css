@@ -1,18 +1,17 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-/* line 3, ../sass/front-page.scss */
+/* line 1, ../sass/front-page.scss */
 .front {
   /* =Footer */
 }
-/* line 4, ../sass/front-page.scss */
+/* line 2, ../sass/front-page.scss */
 .front body {
   font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
 }
-/* line 8, ../sass/front-page.scss */
+/* line 6, ../sass/front-page.scss */
 .front .wrapper {
   width: 90%;
   margin: 0 5%;
 }
-/* line 13, ../sass/front-page.scss */
+/* line 11, ../sass/front-page.scss */
 .front #intro {
   height: 100vh;
   background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
@@ -20,14 +19,14 @@
   color: #fff;
   position: relative;
 }
-/* line 20, ../sass/front-page.scss */
+/* line 18, ../sass/front-page.scss */
 .front #intro .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 26, ../sass/front-page.scss */
+/* line 24, ../sass/front-page.scss */
 .front .project {
   text-align: center;
   padding: 200px 0;
@@ -36,40 +35,40 @@
   transform: translateY(50px);
   transition: all 1s ease-out;
 }
-/* line 34, ../sass/front-page.scss */
+/* line 32, ../sass/front-page.scss */
 .front .project.fade-in {
   opacity: 1;
   transform: translateY(0);
 }
-/* line 38, ../sass/front-page.scss */
+/* line 36, ../sass/front-page.scss */
 .front .project img {
   width: 180px;
   height: 180px;
 }
-/* line 42, ../sass/front-page.scss */
+/* line 40, ../sass/front-page.scss */
 .front .project p {
   max-width: 300px;
   margin: 0 auto;
   color: #294D67;
 }
-/* line 47, ../sass/front-page.scss */
+/* line 45, ../sass/front-page.scss */
 .front #project01 h2 {
   color: #3DB3CE;
 }
-/* line 50, ../sass/front-page.scss */
+/* line 48, ../sass/front-page.scss */
 .front #project02 h2 {
   color: #75C695;
 }
-/* line 53, ../sass/front-page.scss */
+/* line 51, ../sass/front-page.scss */
 .front #project03 h2 {
   color: #F5876F;
 }
-/* line 56, ../sass/front-page.scss */
+/* line 54, ../sass/front-page.scss */
 .front #main {
   position: relative;
   background-color: #FFF;
 }
-/* line 60, ../sass/front-page.scss */
+/* line 58, ../sass/front-page.scss */
 .front .bcg-parallax {
   padding: 150px 0;
   color: #fff;
@@ -78,7 +77,7 @@
   position: relative;
   overflow: hidden;
 }
-/* line 68, ../sass/front-page.scss */
+/* line 66, ../sass/front-page.scss */
 .front .bcg {
   background: url("../img/img_background.jpg") no-repeat;
   background-size: cover;
@@ -89,7 +88,7 @@
   z-index: 1;
   opacity: 0.7;
 }
-/* line 78, ../sass/front-page.scss */
+/* line 76, ../sass/front-page.scss */
 .front .content-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -97,26 +96,26 @@
   position: relative;
   z-index: 2;
 }
-/* line 87, ../sass/front-page.scss */
+/* line 85, ../sass/front-page.scss */
 .front .footer-container {
   text-align: center;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   background-color: #06060d;
 }
-/* line 93, ../sass/front-page.scss */
+/* line 91, ../sass/front-page.scss */
 .front .footer-container .wrapper {
   width: 80%;
   max-width: none;
   margin: 0 10%;
 }
-/* line 98, ../sass/front-page.scss */
+/* line 96, ../sass/front-page.scss */
 .front .footer-container h3 {
   margin: 0;
   padding: 20px 0;
   font-weight: normal;
 }
-/* line 103, ../sass/front-page.scss */
+/* line 101, ../sass/front-page.scss */
 .front .footer-container a {
   color: rgba(255, 255, 255, 0.5);
 }

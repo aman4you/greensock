@@ -26,7 +26,9 @@ regions[page_bottom]    = 'Page bottom'
 
 ; Add style sheets
 stylesheets[all][] = css/front-page.css
+stylesheets[all][] = css/green-basic.css
 stylesheets[all][] = css/normalize.css
 
 ; Add script
+scripts[] = js/green-basic.js
 scripts[] = js/front-page.js
