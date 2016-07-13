@@ -1,0 +1,40 @@
+.page-node-2 {
+	background-color: #121114;
+
+	#section01 {
+		padding: 17% 0;
+		text-align: center;
+	}
+
+	#section02 {
+		overflow: hidden;
+		position: relative;
+		background-color: #595959;
+
+		.text-block {
+			background-color: #1D1E22;
+			padding: 30px;
+			width: 50%;
+			color: #fff;
+			font-size: 15px;
+			margin-left: 40px;
+			text-align: center;
+			display: inline-block;
+			margin-bottom: 94px;
+		}
+
+		.slide-block {
+			position: absolute;
+			right: -48%;
+			text-align: center;
+			top: 40px;
+			width: 40%;
+			padding: 108px;
+			background-color: #fafafa;
+
+			img {
+				width: 200px;
+			}
+		}
+	}
+}
