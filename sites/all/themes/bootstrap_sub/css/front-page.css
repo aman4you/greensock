@@ -1,156 +1,76 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 /* line 3, ../sass/front-page.scss */
-html,
-button,
-input,
-select,
-textarea {
-  color: #222;
+.front {
+  /* =Footer */
 }
-
-/* line 11, ../sass/front-page.scss */
-html {
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/* line 16, ../sass/front-page.scss */
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/* line 21, ../sass/front-page.scss */
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/* line 26, ../sass/front-page.scss */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/* line 35, ../sass/front-page.scss */
-audio,
-canvas,
-img,
-video {
-  vertical-align: middle;
-}
-
-/* line 42, ../sass/front-page.scss */
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 48, ../sass/front-page.scss */
-textarea {
-  resize: vertical;
-}
-
-/* line 52, ../sass/front-page.scss */
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ===== ScrollMagic Class ==============================================
-   Author: Petr Tichy - ihatetomatoes.net
-   ========================================================================== */
-/* line 65, ../sass/front-page.scss */
-body {
+/* line 4, ../sass/front-page.scss */
+.front body {
   font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
 }
-
-/* line 69, ../sass/front-page.scss */
-.wrapper {
+/* line 8, ../sass/front-page.scss */
+.front .wrapper {
   width: 90%;
   margin: 0 5%;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-/* =Main */
-/* line 78, ../sass/front-page.scss */
-#intro {
+/* line 13, ../sass/front-page.scss */
+.front #intro {
   height: 100vh;
   background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
   text-align: center;
   color: #fff;
   position: relative;
 }
-
-/* line 85, ../sass/front-page.scss */
-#intro .content {
+/* line 20, ../sass/front-page.scss */
+.front #intro .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* line 91, ../sass/front-page.scss */
-.project {
+/* line 26, ../sass/front-page.scss */
+.front .project {
   text-align: center;
   padding: 200px 0;
   border-bottom: 1px #ebebeb solid;
   opacity: 0;
-  /*transform: translateY(50px);*/
+  transform: translateY(50px);
   transition: all 1s ease-out;
 }
-
-/* line 99, ../sass/front-page.scss */
-.project.fade-in {
+/* line 34, ../sass/front-page.scss */
+.front .project.fade-in {
   opacity: 1;
-  /*transform: translateY(0);*/
+  transform: translateY(0);
 }
-
-/* line 103, ../sass/front-page.scss */
-.project img {
+/* line 38, ../sass/front-page.scss */
+.front .project img {
   width: 180px;
   height: 180px;
 }
-
-/* line 107, ../sass/front-page.scss */
-.project p {
+/* line 42, ../sass/front-page.scss */
+.front .project p {
   max-width: 300px;
   margin: 0 auto;
   color: #294D67;
 }
-
-/* line 112, ../sass/front-page.scss */
-#project01 h2 {
+/* line 47, ../sass/front-page.scss */
+.front #project01 h2 {
   color: #3DB3CE;
 }
-
-/* line 115, ../sass/front-page.scss */
-#project02 h2 {
+/* line 50, ../sass/front-page.scss */
+.front #project02 h2 {
   color: #75C695;
 }
-
-/* line 118, ../sass/front-page.scss */
-#project03 h2 {
+/* line 53, ../sass/front-page.scss */
+.front #project03 h2 {
   color: #F5876F;
 }
-
-/* line 121, ../sass/front-page.scss */
-#main {
+/* line 56, ../sass/front-page.scss */
+.front #main {
   position: relative;
   background-color: #FFF;
 }
-
-/* line 125, ../sass/front-page.scss */
-.bcg-parallax {
+/* line 60, ../sass/front-page.scss */
+.front .bcg-parallax {
   padding: 150px 0;
   color: #fff;
   background-color: #000;
@@ -158,9 +78,8 @@ body {
   position: relative;
   overflow: hidden;
 }
-
-/* line 133, ../sass/front-page.scss */
-.bcg {
+/* line 68, ../sass/front-page.scss */
+.front .bcg {
   background: url("../img/img_background.jpg") no-repeat;
   background-size: cover;
   position: absolute;
@@ -170,204 +89,34 @@ body {
   z-index: 1;
   opacity: 0.7;
 }
-
-/* line 143, ../sass/front-page.scss */
-.content-wrapper {
+/* line 78, ../sass/front-page.scss */
+.front .content-wrapper {
   width: 90%;
   margin: 0 auto;
   max-width: 1140px;
   position: relative;
   z-index: 2;
 }
-
-/* =Footer */
-/* line 152, ../sass/front-page.scss */
-.footer-container {
+/* line 87, ../sass/front-page.scss */
+.front .footer-container {
   text-align: center;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   background-color: #06060d;
 }
-
-/* line 158, ../sass/front-page.scss */
-.footer-container .wrapper {
+/* line 93, ../sass/front-page.scss */
+.front .footer-container .wrapper {
   width: 80%;
   max-width: none;
   margin: 0 10%;
 }
-
-/* line 163, ../sass/front-page.scss */
-.footer-container h3 {
+/* line 98, ../sass/front-page.scss */
+.front .footer-container h3 {
   margin: 0;
   padding: 20px 0;
   font-weight: normal;
 }
-
-/* line 168, ../sass/front-page.scss */
-.footer-container a {
+/* line 103, ../sass/front-page.scss */
+.front .footer-container a {
   color: rgba(255, 255, 255, 0.5);
-}
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 480px) {
-  /* =General */
-  /* =Header */
-  /* =Footer */
-}
-@media only screen and (min-width: 768px) {
-  /* =General */
-  /* =Header */
-  /* =Footer */
-}
-@media only screen and (min-width: 1140px) {
-  /* =General */
-  /* =Header */
-  /* =Footer */
-}
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-/* line 205, ../sass/front-page.scss */
-.ir {
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  *text-indent: -9999px;
-}
-
-/* line 212, ../sass/front-page.scss */
-.ir:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-/* line 219, ../sass/front-page.scss */
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
-
-/* line 224, ../sass/front-page.scss */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-/* line 235, ../sass/front-page.scss */
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
-
-/* line 245, ../sass/front-page.scss */
-.invisible {
-  visibility: hidden;
-}
-
-/* line 249, ../sass/front-page.scss */
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-/* line 255, ../sass/front-page.scss */
-.clearfix:after {
-  clear: both;
-}
-
-/* line 259, ../sass/front-page.scss */
-.clearfix {
-  *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-@media print {
-  /* line 268, ../sass/front-page.scss */
-  * {
-    background: transparent !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  /* line 275, ../sass/front-page.scss */
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  /* line 280, ../sass/front-page.scss */
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  /* line 284, ../sass/front-page.scss */
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  /* line 288, ../sass/front-page.scss */
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
-  }
-
-  /* line 294, ../sass/front-page.scss */
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /* line 300, ../sass/front-page.scss */
-  thead {
-    display: table-header-group;
-  }
-
-  /* line 304, ../sass/front-page.scss */
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  /* line 309, ../sass/front-page.scss */
-  img {
-    max-width: 100% !important;
-  }
-
-  @page {
-    margin: 0.5cm;
-  }
-  /* line 317, ../sass/front-page.scss */
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  /* line 324, ../sass/front-page.scss */
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
 }
