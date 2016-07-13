@@ -1,0 +1,373 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/* line 3, ../sass/main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 11, ../sass/main.scss */
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 16, ../sass/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 21, ../sass/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 26, ../sass/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 35, ../sass/main.scss */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+/* line 42, ../sass/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 48, ../sass/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 52, ../sass/main.scss */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ===== ScrollMagic Class ==============================================
+   Author: Petr Tichy - ihatetomatoes.net
+   ========================================================================== */
+/* line 65, ../sass/main.scss */
+body {
+  font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+}
+
+/* line 69, ../sass/main.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* =Main */
+/* line 78, ../sass/main.scss */
+#intro {
+  height: 100vh;
+  background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+/* line 85, ../sass/main.scss */
+#intro .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 91, ../sass/main.scss */
+.project {
+  text-align: center;
+  padding: 200px 0;
+  border-bottom: 1px #ebebeb solid;
+  opacity: 0;
+  /*transform: translateY(50px);*/
+  transition: all 1s ease-out;
+}
+
+/* line 99, ../sass/main.scss */
+.project.fade-in {
+  opacity: 1;
+  /*transform: translateY(0);*/
+}
+
+/* line 103, ../sass/main.scss */
+.project img {
+  width: 180px;
+  height: 180px;
+}
+
+/* line 107, ../sass/main.scss */
+.project p {
+  max-width: 300px;
+  margin: 0 auto;
+  color: #294D67;
+}
+
+/* line 112, ../sass/main.scss */
+#project01 h2 {
+  color: #3DB3CE;
+}
+
+/* line 115, ../sass/main.scss */
+#project02 h2 {
+  color: #75C695;
+}
+
+/* line 118, ../sass/main.scss */
+#project03 h2 {
+  color: #F5876F;
+}
+
+/* line 121, ../sass/main.scss */
+#main {
+  position: relative;
+  background-color: #FFF;
+}
+
+/* line 125, ../sass/main.scss */
+.bcg-parallax {
+  padding: 150px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 133, ../sass/main.scss */
+.bcg {
+  background: url("../img/img_background.jpg") no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  top: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+/* line 143, ../sass/main.scss */
+.content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  z-index: 2;
+}
+
+/* =Footer */
+/* line 152, ../sass/main.scss */
+.footer-container {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #06060d;
+}
+
+/* line 158, ../sass/main.scss */
+.footer-container .wrapper {
+  width: 80%;
+  max-width: none;
+  margin: 0 10%;
+}
+
+/* line 163, ../sass/main.scss */
+.footer-container h3 {
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+/* line 168, ../sass/main.scss */
+.footer-container a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* =General */
+  /* =Header */
+  /* =Footer */
+}
+@media only screen and (min-width: 768px) {
+  /* =General */
+  /* =Header */
+  /* =Footer */
+}
+@media only screen and (min-width: 1140px) {
+  /* =General */
+  /* =Header */
+  /* =Footer */
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 205, ../sass/main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 212, ../sass/main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 219, ../sass/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 224, ../sass/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 235, ../sass/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 245, ../sass/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 249, ../sass/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 255, ../sass/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 259, ../sass/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 268, ../sass/main.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 275, ../sass/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 280, ../sass/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 284, ../sass/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 288, ../sass/main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 294, ../sass/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 300, ../sass/main.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 304, ../sass/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 309, ../sass/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 317, ../sass/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 324, ../sass/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
