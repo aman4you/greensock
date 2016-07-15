@@ -1,21 +1,23 @@
 .page-node-3 {
 	.image-block {
-		background-color: #ded15a;
-		padding-bottom: 18%;
-		padding-top: 15%;
 		position: fixed;
 		text-align: center;
 		width: 100%;
 		z-index: 2;
 
 		img {
-			width: 200px;
+			width: 100%;
+		}
+
+		.scale-image-block {
+			transition: all 0.5s linear 0s;
+			transform: scale(9) !important;
 		}
 	}
 
 	.language-block {
-		background-color: #595959;
-		padding: 28% 0 35% 100px;
+		background-color: #d1140f;
+		padding: 26% 0 35% 100px;
 		position: relative;
 	}
 

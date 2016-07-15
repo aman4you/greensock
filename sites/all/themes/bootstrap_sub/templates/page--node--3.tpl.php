@@ -1,6 +1,6 @@
 <div class="top-block">
 	<div class="image-block">
-		<img src="/sites/all/themes/bootstrap_sub/img/mufclogo.png">
+		<img src="/sites/all/themes/bootstrap_sub/img/menu_logo.png">
 	</div>
 	<div class="language-block">
 		<div class="language-list">
