@@ -25,12 +25,14 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 ; Add style sheets
+stylesheets[all][] = css/project2.css
 stylesheets[all][] = css/project1.css
 stylesheets[all][] = css/front-page.css
 stylesheets[all][] = css/green-basic.css
 stylesheets[all][] = css/normalize.css
 
 ; Add script
+scripts[] = js/project2.js
 scripts[] = js/project1.js
 scripts[] = js/green-basic.js
 scripts[] = js/front-page.js

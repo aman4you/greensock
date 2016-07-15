@@ -1,0 +1,41 @@
+/* line 2, ../sass/project2.scss */
+.page-node-3 .image-block {
+  background-color: #ded15a;
+  padding-bottom: 18%;
+  padding-top: 15%;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+/* line 11, ../sass/project2.scss */
+.page-node-3 .image-block img {
+  width: 200px;
+}
+/* line 16, ../sass/project2.scss */
+.page-node-3 .language-block {
+  background-color: #595959;
+  padding: 28% 0 35% 100px;
+  position: relative;
+}
+/* line 22, ../sass/project2.scss */
+.page-node-3 .language-list {
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+/* line 27, ../sass/project2.scss */
+.page-node-3 .language-list span {
+  color: #fafafa;
+  font-size: 18px;
+}
+/* line 32, ../sass/project2.scss */
+.page-node-3 .language-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+/* line 37, ../sass/project2.scss */
+.page-node-3 .language-list li {
+  color: #fafafa;
+  margin-bottom: 5px;
+}

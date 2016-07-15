@@ -1,0 +1,42 @@
+.page-node-3 {
+	.image-block {
+		background-color: #ded15a;
+		padding-bottom: 18%;
+		padding-top: 15%;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		z-index: 2;
+
+		img {
+			width: 200px;
+		}
+	}
+
+	.language-block {
+		background-color: #595959;
+		padding: 28% 0 35% 100px;
+		position: relative;
+	}
+
+	.language-list {
+		position: absolute;
+		top: 40%;
+		z-index: 1;
+
+		span {
+			color: #fafafa;
+			font-size: 18px;
+		}
+
+		ul {
+			padding: 0;
+			list-style-type: none;
+		}
+
+		li {
+			color: #fafafa;
+			margin-bottom: 5px;
+		}
+	}
+}
