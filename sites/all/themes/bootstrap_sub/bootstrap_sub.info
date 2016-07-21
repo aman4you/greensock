@@ -25,14 +25,16 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 ; Add style sheets
-stylesheets[all][] = css/project2.css
-stylesheets[all][] = css/project1.css
-stylesheets[all][] = css/front-page.css
+stylesheets[all][] = css/manutd-home.css
+stylesheets[all][] = css/ebnl-home.css
+stylesheets[all][] = css/scroll-basic.css
 stylesheets[all][] = css/green-basic.css
 stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/css3-animate1.css
 
 ; Add script
-scripts[] = js/project2.js
-scripts[] = js/project1.js
+scripts[] = js/manutd-home.js
+scripts[] = js/ebnl-home.js
 scripts[] = js/green-basic.js
-scripts[] = js/front-page.js
+scripts[] = js/scroll-basic.js
+scripts[] = js/css3-animate1.js

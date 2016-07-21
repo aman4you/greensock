@@ -1,0 +1,121 @@
+/* line 1, ../sass/scroll-basic.scss */
+.front {
+  /* =Footer */
+}
+/* line 2, ../sass/scroll-basic.scss */
+.front body {
+  font: 16px/1.5 Helvetica, Helvetica Neue, Arial;
+}
+/* line 6, ../sass/scroll-basic.scss */
+.front .wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+/* line 11, ../sass/scroll-basic.scss */
+.front #intro {
+  height: 100vh;
+  background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+/* line 18, ../sass/scroll-basic.scss */
+.front #intro .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 24, ../sass/scroll-basic.scss */
+.front .project {
+  text-align: center;
+  padding: 200px 0;
+  border-bottom: 1px #ebebeb solid;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+/* line 32, ../sass/scroll-basic.scss */
+.front .project.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* line 36, ../sass/scroll-basic.scss */
+.front .project img {
+  width: 180px;
+  height: 180px;
+}
+/* line 40, ../sass/scroll-basic.scss */
+.front .project p {
+  max-width: 300px;
+  margin: 0 auto;
+  color: #294D67;
+}
+/* line 45, ../sass/scroll-basic.scss */
+.front #project01 h2 {
+  color: #3DB3CE;
+}
+/* line 48, ../sass/scroll-basic.scss */
+.front #project02 h2 {
+  color: #75C695;
+}
+/* line 51, ../sass/scroll-basic.scss */
+.front #project03 h2 {
+  color: #F5876F;
+}
+/* line 54, ../sass/scroll-basic.scss */
+.front #main {
+  position: relative;
+  background-color: #FFF;
+}
+/* line 58, ../sass/scroll-basic.scss */
+.front .bcg-parallax {
+  padding: 150px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+/* line 66, ../sass/scroll-basic.scss */
+.front .bcg {
+  background: url("../img/img_background.jpg") no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  top: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+/* line 76, ../sass/scroll-basic.scss */
+.front .content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  z-index: 2;
+}
+/* line 85, ../sass/scroll-basic.scss */
+.front .footer-container {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #06060d;
+}
+/* line 91, ../sass/scroll-basic.scss */
+.front .footer-container .wrapper {
+  width: 80%;
+  max-width: none;
+  margin: 0 10%;
+}
+/* line 96, ../sass/scroll-basic.scss */
+.front .footer-container h3 {
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+}
+/* line 101, ../sass/scroll-basic.scss */
+.front .footer-container a {
+  color: rgba(255, 255, 255, 0.5);
+}
