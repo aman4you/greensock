@@ -1,0 +1,20 @@
+.cloud-block {
+	overflow: hidden;
+}
+
+.cloud-image {
+	background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat;
+	height: 158px;
+	margin: 100px 0 200px 0;
+	width: 110%;
+	animation: cloud_flow 2s linear 0s infinite alternate;
+}
+
+@keyframes cloud_flow {
+ from {
+     margin-left: 0;
+ }
+ to {
+     margin-left: -10%;
+ }
+}
