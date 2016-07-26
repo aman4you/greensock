@@ -21,133 +21,137 @@
   }
 }
 /* line 25, ../sass/css3-animate2.scss */
-.interset-area-main {
+.internet-area-main {
   background-color: #e0dcd3;
 }
 
 /* line 29, ../sass/css3-animate2.scss */
-.interset-area {
+.internet-area {
   margin: auto;
   width: 80%;
   padding: 40px 0;
 }
 /* line 34, ../sass/css3-animate2.scss */
-.interset-area .main-image img {
+.internet-area .main-image img {
   width: 100%;
 }
 /* line 38, ../sass/css3-animate2.scss */
-.interset-area .left-container, .interset-area .main-image, .interset-area .right-container {
-  width: 33%;
+.internet-area .left-container, .internet-area .main-image, .internet-area .right-container {
+  width: 32%;
   vertical-align: top;
   display: inline-block;
 }
-/* line 44, ../sass/css3-animate2.scss */
-.interset-area .left-container {
-  text-align: right;
-}
-/* line 47, ../sass/css3-animate2.scss */
-.interset-area .left-container ul {
+/* line 45, ../sass/css3-animate2.scss */
+.internet-area .left-container ul {
   padding: 0 40px 0 0;
 }
-/* line 52, ../sass/css3-animate2.scss */
-.interset-area .right-container {
+/* line 49, ../sass/css3-animate2.scss */
+.internet-area .left-container li {
   text-align: left;
 }
 /* line 55, ../sass/css3-animate2.scss */
-.interset-area .right-container ul {
+.internet-area .right-container ul {
   padding: 0 0 0 40px;
 }
-/* line 60, ../sass/css3-animate2.scss */
-.interset-area ul {
+/* line 59, ../sass/css3-animate2.scss */
+.internet-area .right-container li {
+  text-align: right;
+}
+/* line 64, ../sass/css3-animate2.scss */
+.internet-area .slide-image {
+  text-align: right !important;
+}
+/* line 68, ../sass/css3-animate2.scss */
+.internet-area ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 65, ../sass/css3-animate2.scss */
-.interset-area .icons {
+/* line 73, ../sass/css3-animate2.scss */
+.internet-area .icons {
   display: inline-block;
 }
-/* line 68, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-iot {
+/* line 76, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-iot {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -15px -357px;
 }
-/* line 69, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-ai {
+/* line 77, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-ai {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -123px -358px;
 }
-/* line 70, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-auto {
+/* line 78, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-auto {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -228px -358px;
 }
-/* line 71, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-m2m {
+/* line 79, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-m2m {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -228px -447px;
 }
-/* line 72, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-science {
+/* line 80, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-science {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -15px -447px;
 }
-/* line 73, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-supply {
+/* line 81, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-supply {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -123px -442px;
 }
-/* line 74, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-healthcare {
+/* line 82, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-healthcare {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -338px -356px;
 }
-/* line 75, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-financial {
+/* line 83, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-financial {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -339px -447px;
 }
-/* line 76, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-energy {
+/* line 84, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-energy {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -367px -176px;
 }
-/* line 77, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-media {
+/* line 85, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-media {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);
   background-repeat: no-repeat;
   background-position: -477px -176px;
 }
-/* line 78, ../sass/css3-animate2.scss */
-.interset-area .icons.icon-social {
+/* line 86, ../sass/css3-animate2.scss */
+.internet-area .icons.icon-social {
   width: 100px;
   height: 85px;
   background: url(../img/sprites.svg);

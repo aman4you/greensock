@@ -22,11 +22,11 @@
  }
 }
 
-.interset-area-main {
+.internet-area-main {
 	background-color: #e0dcd3;
 }
 
-.interset-area {
+.internet-area {
 	margin: auto;
 	width: 80%;
 	padding: 40px 0;
@@ -36,25 +36,33 @@
 	}
 
 	.left-container, .main-image, .right-container {
-		width: 33%;
+		width: 32%;
 		vertical-align: top;
 		display: inline-block;
 	}
 
 	.left-container {
-		text-align: right;
-
 		ul {
 			padding: 0 40px 0 0;
+		}
+
+		li {
+			text-align: left;
 		}
 	}
 
 	.right-container {
-		text-align: left;
-
 		ul {
 			padding: 0 0 0 40px;
 		}
+
+		li {
+			text-align: right;
+		}
+	}
+
+	.slide-image {
+		text-align: right !important;
 	}
 
 	ul {
