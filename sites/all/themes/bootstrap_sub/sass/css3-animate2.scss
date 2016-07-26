@@ -1,12 +1,15 @@
+@import "compass/css3/";
+@import 'variables';
+
 .cloud-block {
 	overflow: hidden;
 }
 
 .cloud-image {
-	background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat;
+	background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat 0 0;
 	height: 158px;
 	margin: 100px 0 200px 0;
-	width: 110%;
+	width: 140%;
 	animation: cloud_flow 2s linear 0s infinite alternate;
 }
 
@@ -15,6 +18,63 @@
      margin-left: 0;
  }
  to {
-     margin-left: -10%;
+     margin-left: -40%;
  }
+}
+
+.interset-area-main {
+	background-color: #e0dcd3;
+}
+
+.interset-area {
+	margin: auto;
+	width: 80%;
+	padding: 40px 0;
+
+	.main-image img {
+		width: 100%;
+	}
+
+	.left-container, .main-image, .right-container {
+		width: 33%;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.left-container {
+		text-align: right;
+
+		ul {
+			padding: 0 40px 0 0;
+		}
+	}
+
+	.right-container {
+		text-align: left;
+
+		ul {
+			padding: 0 0 0 40px;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		margin-bottom: 0;
+	}
+
+	.icons { 
+		display: inline-block;
+
+		&.icon-iot { @include sprites(100,85,-15,-357); }
+		&.icon-ai { @include sprites(100,85,-123,-358); }
+		&.icon-auto { @include sprites(100,85,-228,-358); }
+		&.icon-m2m { @include sprites(100,85,-228,-447); }
+		&.icon-science { @include sprites(100,85,-15,-447); }
+		&.icon-supply { @include sprites(100,85,-123,-442); }
+		&.icon-healthcare { @include sprites(100,85,-338,-356); }
+		&.icon-financial { @include sprites(100,85,-339,-447); }
+		&.icon-energy { @include sprites(100,85,-367,-176); }
+		&.icon-media { @include sprites(100,85,-477,-176); }
+		&.icon-social { @include sprites(100,85,-367,-266); }
+	}
 }

@@ -1,0 +1,7 @@
+@mixin sprites($width,$height,$x,$y) {
+  width: $width+px;
+  height:$height+px;
+  background:url(../img/sprites.svg);
+  background-repeat:no-repeat;
+  background-position:$x+px $y+px;
+}

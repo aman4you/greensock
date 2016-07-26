@@ -1,14 +1,14 @@
-/* line 1, ../sass/css3-animate2.scss */
+/* line 4, ../sass/css3-animate2.scss */
 .cloud-block {
   overflow: hidden;
 }
 
-/* line 5, ../sass/css3-animate2.scss */
+/* line 8, ../sass/css3-animate2.scss */
 .cloud-image {
-  background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat;
+  background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat 0 0;
   height: 158px;
   margin: 100px 0 200px 0;
-  width: 110%;
+  width: 140%;
   animation: cloud_flow 2s linear 0s infinite alternate;
 }
 
@@ -17,6 +17,140 @@
     margin-left: 0;
   }
   to {
-    margin-left: -10%;
+    margin-left: -40%;
   }
+}
+/* line 25, ../sass/css3-animate2.scss */
+.interset-area-main {
+  background-color: #e0dcd3;
+}
+
+/* line 29, ../sass/css3-animate2.scss */
+.interset-area {
+  margin: auto;
+  width: 80%;
+  padding: 40px 0;
+}
+/* line 34, ../sass/css3-animate2.scss */
+.interset-area .main-image img {
+  width: 100%;
+}
+/* line 38, ../sass/css3-animate2.scss */
+.interset-area .left-container, .interset-area .main-image, .interset-area .right-container {
+  width: 33%;
+  vertical-align: top;
+  display: inline-block;
+}
+/* line 44, ../sass/css3-animate2.scss */
+.interset-area .left-container {
+  text-align: right;
+}
+/* line 47, ../sass/css3-animate2.scss */
+.interset-area .left-container ul {
+  padding: 0 40px 0 0;
+}
+/* line 52, ../sass/css3-animate2.scss */
+.interset-area .right-container {
+  text-align: left;
+}
+/* line 55, ../sass/css3-animate2.scss */
+.interset-area .right-container ul {
+  padding: 0 0 0 40px;
+}
+/* line 60, ../sass/css3-animate2.scss */
+.interset-area ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+/* line 65, ../sass/css3-animate2.scss */
+.interset-area .icons {
+  display: inline-block;
+}
+/* line 68, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-iot {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -15px -357px;
+}
+/* line 69, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-ai {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -123px -358px;
+}
+/* line 70, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-auto {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -228px -358px;
+}
+/* line 71, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-m2m {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -228px -447px;
+}
+/* line 72, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-science {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -15px -447px;
+}
+/* line 73, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-supply {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -123px -442px;
+}
+/* line 74, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-healthcare {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -338px -356px;
+}
+/* line 75, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-financial {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -339px -447px;
+}
+/* line 76, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-energy {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -367px -176px;
+}
+/* line 77, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-media {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -477px -176px;
+}
+/* line 78, ../sass/css3-animate2.scss */
+.interset-area .icons.icon-social {
+  width: 100px;
+  height: 85px;
+  background: url(../img/sprites.svg);
+  background-repeat: no-repeat;
+  background-position: -367px -266px;
 }
