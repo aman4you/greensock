@@ -22,6 +22,9 @@
 
 		function callback(event) {
 			var triggerItem = this.triggerElement().className;
+			var triggerItemRow = triggerItem.split(' ')[0];
+			$('.left-container .' + triggerItemRow).toggleClass('left-container-slide');
+			$('.right-container .' + triggerItemRow).toggleClass('right-container-slide');
 		}
 	});
 

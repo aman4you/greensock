@@ -47,7 +47,14 @@
 		}
 
 		li {
-			text-align: left;
+			opacity: 0;
+			transform: translateX(0px);			
+			transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
+
+			&.left-container-slide {
+				opacity: 1;
+				transform: translateX(130px);
+			}
 		}
 	}
 
@@ -57,12 +64,15 @@
 		}
 
 		li {
-			text-align: right;
-		}
-	}
+			opacity: 0;
+			transform: translateX(130px);
+			transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
 
-	.slide-image {
-		text-align: right !important;
+			&.right-container-slide {
+				opacity: 1;
+				transform: translateX(0px);
+			}
+		}
 	}
 
 	ul {

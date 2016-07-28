@@ -6,8 +6,8 @@
 	<div class="internet-area">
 		<div class="left-container">
 			<ul>
-				<li id="abc" class="row-1 slide-right"><span class="icons icon-iot"></span></li>
-				<li class="row-2 slide-right"class=""><span class="icons icon-ai"></span></li>
+				<li class="row-1 slide-right"><span class="icons icon-iot"></span></li>
+				<li class="row-2 slide-right"><span class="icons icon-ai"></span></li>
 				<li class="row-3 slide-right"><span class="icons icon-auto"></span></li>
 				<li class="row-4 slide-right"><span class="icons icon-m2m"></span></li>
 				<li class="row-5 slide-right"><span class="icons icon-science"></span></li>
