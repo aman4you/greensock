@@ -31,11 +31,14 @@ stylesheets[all][] = css/scroll-basic.css
 stylesheets[all][] = css/green-basic.css
 stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/css3-animate1.css
-stylesheets[all][] = css/css3-animate2.css
+stylesheets[all][] = css/techcelx-home.css
+stylesheets[all][] = css/cssLib/animate.css
 
 ; Add script
 scripts[] = js/manutd-home.js
 scripts[] = js/ebnl-home.js
 scripts[] = js/green-basic.js
 scripts[] = js/scroll-basic.js
-scripts[] = js/css3-animate2.js
+scripts[] = js/techcelx-home.js
+scripts[] = js/css3-animate1.js
+scripts[] = js/jsLib/wow.min.js

@@ -7,7 +7,7 @@
 
 .cloud-image {
 	background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat 0 0;
-	height: 158px;
+	height: 230px;
 	margin: 100px 0 200px 0;
 	width: 140%;
 	animation: cloud_flow 2s linear 0s infinite alternate;
@@ -53,7 +53,7 @@
 
 			&.left-container-slide {
 				opacity: 1;
-				transform: translateX(130px);
+				transform: translateX(210px);
 			}
 		}
 	}
@@ -65,7 +65,7 @@
 
 		li {
 			opacity: 0;
-			transform: translateX(130px);
+			transform: translateX(210px);
 			transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
 
 			&.right-container-slide {

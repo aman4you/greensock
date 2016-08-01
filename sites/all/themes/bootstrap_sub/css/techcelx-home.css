@@ -1,12 +1,12 @@
-/* line 4, ../sass/css3-animate2.scss */
+/* line 4, ../sass/techcelx-home.scss */
 .cloud-block {
   overflow: hidden;
 }
 
-/* line 8, ../sass/css3-animate2.scss */
+/* line 8, ../sass/techcelx-home.scss */
 .cloud-image {
   background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat 0 0;
-  height: 158px;
+  height: 230px;
   margin: 100px 0 200px 0;
   width: 140%;
   animation: cloud_flow 2s linear 0s infinite alternate;
@@ -20,67 +20,67 @@
     margin-left: -40%;
   }
 }
-/* line 25, ../sass/css3-animate2.scss */
+/* line 25, ../sass/techcelx-home.scss */
 .internet-area-main {
   background-color: #e0dcd3;
 }
 
-/* line 29, ../sass/css3-animate2.scss */
+/* line 29, ../sass/techcelx-home.scss */
 .internet-area {
   margin: auto;
   width: 80%;
   padding: 40px 0;
 }
-/* line 34, ../sass/css3-animate2.scss */
+/* line 34, ../sass/techcelx-home.scss */
 .internet-area .main-image img {
   width: 100%;
 }
-/* line 38, ../sass/css3-animate2.scss */
+/* line 38, ../sass/techcelx-home.scss */
 .internet-area .left-container, .internet-area .main-image, .internet-area .right-container {
   width: 32%;
   vertical-align: top;
   display: inline-block;
 }
-/* line 45, ../sass/css3-animate2.scss */
+/* line 45, ../sass/techcelx-home.scss */
 .internet-area .left-container ul {
   padding: 0 40px 0 0;
 }
-/* line 49, ../sass/css3-animate2.scss */
+/* line 49, ../sass/techcelx-home.scss */
 .internet-area .left-container li {
   opacity: 0;
   transform: translateX(0px);
   transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
 }
-/* line 54, ../sass/css3-animate2.scss */
+/* line 54, ../sass/techcelx-home.scss */
 .internet-area .left-container li.left-container-slide {
   opacity: 1;
-  transform: translateX(130px);
+  transform: translateX(210px);
 }
-/* line 62, ../sass/css3-animate2.scss */
+/* line 62, ../sass/techcelx-home.scss */
 .internet-area .right-container ul {
   padding: 0 0 0 40px;
 }
-/* line 66, ../sass/css3-animate2.scss */
+/* line 66, ../sass/techcelx-home.scss */
 .internet-area .right-container li {
   opacity: 0;
-  transform: translateX(130px);
+  transform: translateX(210px);
   transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
 }
-/* line 71, ../sass/css3-animate2.scss */
+/* line 71, ../sass/techcelx-home.scss */
 .internet-area .right-container li.right-container-slide {
   opacity: 1;
   transform: translateX(0px);
 }
-/* line 78, ../sass/css3-animate2.scss */
+/* line 78, ../sass/techcelx-home.scss */
 .internet-area ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 83, ../sass/css3-animate2.scss */
+/* line 83, ../sass/techcelx-home.scss */
 .internet-area .icons {
   display: inline-block;
 }
-/* line 86, ../sass/css3-animate2.scss */
+/* line 86, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-iot {
   width: 100px;
   height: 85px;
@@ -88,7 +88,7 @@
   background-repeat: no-repeat;
   background-position: -15px -357px;
 }
-/* line 87, ../sass/css3-animate2.scss */
+/* line 87, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-ai {
   width: 100px;
   height: 85px;
@@ -96,7 +96,7 @@
   background-repeat: no-repeat;
   background-position: -123px -358px;
 }
-/* line 88, ../sass/css3-animate2.scss */
+/* line 88, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-auto {
   width: 100px;
   height: 85px;
@@ -104,7 +104,7 @@
   background-repeat: no-repeat;
   background-position: -228px -358px;
 }
-/* line 89, ../sass/css3-animate2.scss */
+/* line 89, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-m2m {
   width: 100px;
   height: 85px;
@@ -112,7 +112,7 @@
   background-repeat: no-repeat;
   background-position: -228px -447px;
 }
-/* line 90, ../sass/css3-animate2.scss */
+/* line 90, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-science {
   width: 100px;
   height: 85px;
@@ -120,7 +120,7 @@
   background-repeat: no-repeat;
   background-position: -15px -447px;
 }
-/* line 91, ../sass/css3-animate2.scss */
+/* line 91, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-supply {
   width: 100px;
   height: 85px;
@@ -128,7 +128,7 @@
   background-repeat: no-repeat;
   background-position: -123px -442px;
 }
-/* line 92, ../sass/css3-animate2.scss */
+/* line 92, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-healthcare {
   width: 100px;
   height: 85px;
@@ -136,7 +136,7 @@
   background-repeat: no-repeat;
   background-position: -338px -356px;
 }
-/* line 93, ../sass/css3-animate2.scss */
+/* line 93, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-financial {
   width: 100px;
   height: 85px;
@@ -144,7 +144,7 @@
   background-repeat: no-repeat;
   background-position: -339px -447px;
 }
-/* line 94, ../sass/css3-animate2.scss */
+/* line 94, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-energy {
   width: 100px;
   height: 85px;
@@ -152,7 +152,7 @@
   background-repeat: no-repeat;
   background-position: -367px -176px;
 }
-/* line 95, ../sass/css3-animate2.scss */
+/* line 95, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-media {
   width: 100px;
   height: 85px;
@@ -160,7 +160,7 @@
   background-repeat: no-repeat;
   background-position: -477px -176px;
 }
-/* line 96, ../sass/css3-animate2.scss */
+/* line 96, ../sass/techcelx-home.scss */
 .internet-area .icons.icon-social {
   width: 100px;
   height: 85px;

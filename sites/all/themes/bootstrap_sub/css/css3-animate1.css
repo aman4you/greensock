@@ -1,33 +1,40 @@
 /* line 1, ../sass/css3-animate1.scss */
-.container {
-  margin: 20px auto;
+.element-block {
+  margin: 280px auto 400px;
   max-width: 700px;
 }
 
 /* line 6, ../sass/css3-animate1.scss */
 .element {
   margin: 0 auto;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background-color: #009966;
   border-radius: 50%;
   position: relative;
-  top: 0;
-  animation: bounce 1s infinite;
+  bottom: 0;
+  animation: bounce_ball 1.2s infinite;
 }
 
-@keyframes bounce {
+@keyframes bounce_ball {
   from {
-    top: 75px;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-in;
-  }
-  50% {
-    top: 200px;
-    -webkit-animation-timing-function: ease-out;
+    bottom: 100px;
     animation-timing-function: ease-out;
   }
-  to {
-    top: 75px;
+  50% {
+    bottom: 240px;
+    animation-timing-function: ease-in;
   }
+  to {
+    bottom: 100px;
+  }
+}
+/* line 31, ../sass/css3-animate1.scss */
+.content-block {
+  background-color: #cbcbcb;
+  height: 300px;
+  margin-bottom: 150px;
+  margin-left: 20px;
+  padding: 20px;
+  width: 50%;
 }

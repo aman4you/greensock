@@ -4,7 +4,7 @@
 }
 /* line 4, ../sass/ebnl-home.scss */
 .page-node-2 #section01 {
-  padding: 17% 0;
+  padding: 18% 0;
   text-align: center;
 }
 /* line 9, ../sass/ebnl-home.scss */
@@ -19,7 +19,7 @@
   padding: 30px;
   width: 50%;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 40px;
   text-align: center;
   display: inline-block;
@@ -32,7 +32,7 @@
   text-align: center;
   top: 40px;
   width: 40%;
-  padding: 108px;
+  padding: 124px 100px;
   background-color: #fafafa;
 }
 /* line 35, ../sass/ebnl-home.scss */

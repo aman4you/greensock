@@ -27,8 +27,8 @@
 			0.4);
 
 		var slideParallexScene2 = new ScrollMagic.Scene({
-			triggerElement: '#section02',
-			triggerHook: 1,
+			triggerElement: '#section01',
+			triggerHook: 0,
 			duration: '100%'
 		})
 		.setTween(parallaxTl2)
