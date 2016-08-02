@@ -2,20 +2,34 @@
 
 	$(document).ready(function() {
 		var controller = new ScrollMagic.Controller();
-		var parallaxTl = new TimelineMax();
 
-		// Slide block.
-		parallaxTl
-			.to('.slide-block', 1, 
-				{left: 0, ease: Power2.easeNone},
-			0.4);
+		// Slide natural.
+		var slides = $(".slide-natural").toArray();
 
-		var slideParallexScene = new ScrollMagic.Scene({
-			triggerElement: '#section02',
-			triggerHook: 1,
-			duration: '100%'
+		for(var i=0; i<slides.length; i++) {
+			new ScrollMagic.Scene({
+				triggerElement: slides[i],
+				triggerHook: 0,
+			})
+			.setPin(slides[i])
+			.addTo(controller);
+		}
+
+		// Slide manual.
+		var wipeAnimation = new TimelineMax();
+
+		wipeAnimation
+			.fromTo(".slide-manual.second", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})
+			.fromTo(".slide-manual.third", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})
+			.fromTo(".slide-manual.fourth", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone});
+
+		new ScrollMagic.Scene({
+			triggerElement: '#pinContainer',
+			triggerHook: "onLeave",
+			duration: '300%'
 		})
-		.setTween(parallaxTl)
+		.setPin('#pinContainer')
+		.setTween(wipeAnimation)
 		.addTo(controller);
 	});
 

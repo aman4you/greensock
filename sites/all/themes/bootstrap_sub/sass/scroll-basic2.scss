@@ -1,30 +1,81 @@
 .page-node-2 {
-	background-color: #121114;
+	background-color: #C7E1FF;
 
-	#section01 {
-		padding: 18% 0;
+	.section01 {
+		height: 648px;
+		padding-top: 20px;
 		text-align: center;
 	}
 
-	#section02 {
-		background-color: #595959;
-		height: 100%;
-		overflow: hidden;
-		position: absolute;
+	// Slide natural.
+	.slide-natural {
+		height: 645px;
 		width: 100%;
+		margin-bottom: 200px;
 
-		.slide-block {
-			background-color: #fafafa;
-			height: 100%;
-			padding: 124px 100px;
-			position: absolute;
-			left: -100%;
+		b {
+			color: white;
+			display: block;
+			font-size: 16px;
+			position: relative;
 			text-align: center;
-			width: 100%;
-
-			img {
-				width: 200px;
-			}
+			text-transform: uppercase;
+			top: 50%;
 		}
+	}
+
+	.slide-natural.first {
+		background-color: #3883d8;
+	}
+
+	.slide-natural.second {
+		background-color: #38CED7;
+	}
+
+	.slide-natural.third {
+		background-color: #22D659;
+	}
+
+	.slide-natural.fourth {
+		background-color: #953543;
+	}
+
+	// Slide manual.
+	#pinContainer {
+		width: 100%;
+		height: 648px;
+		overflow: hidden;
+	}
+
+	.slide-manual {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+
+		b {
+			color: white;
+			display: block;
+			font-size: 16px;
+			position: relative;
+			text-align: center;
+			text-transform: uppercase;
+			top: 50%;
+		}
+	}
+
+	.slide-manual.first {
+		background-color: #3883d8;
+	}
+
+	.slide-manual.second {
+		background-color: #38CED7;
+	}
+
+	.slide-manual.third {
+		background-color: #22D659;
+	}
+
+	.slide-manual.fourth {
+		background-color: #953543;
 	}
 }

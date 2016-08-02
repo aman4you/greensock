@@ -1,11 +1,31 @@
-<div id="section01" class="section">
+<div class="section01">
 	<img src="/sites/all/themes/bootstrap_sub/img/petr-tichy-ihatetomatoes-blog.svg" alt="GreenSock 101 - Getting started with GreenSock in 60 minutes.">
 </div>
 
-<div id="section02" class="section">
-	<div class="slide-block">
-		<img src="/sites/all/themes/bootstrap_sub/img/img_project01-icon.svg" />
-		<h2>Project Title</h2>
-		<p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed.</p>
-	</div>
+<section class="slide-natural first">
+	<b>One</b>
+</section>
+<section class="slide-natural second">
+	<b>Two</b>
+</section>
+<section class="slide-natural third">
+	<b>Three</b>
+</section>
+<section class="slide-natural fourth">
+	<b>Four</b>
+</section>
+
+<div id="pinContainer">
+	<section class="slide-manual first">
+		<b>One</b>
+	</section>
+	<section class="slide-manual second">
+		<b>Two</b>
+	</section>
+	<section class="slide-manual third">
+		<b>Three</b>
+	</section>
+	<section class="slide-manual fourth">
+		<b>Four</b>
+	</section>
 </div>
