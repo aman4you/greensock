@@ -1,0 +1,31 @@
+/* line 1, ../sass/scroll-basic2.scss */
+.page-node-2 {
+  background-color: #121114;
+}
+/* line 4, ../sass/scroll-basic2.scss */
+.page-node-2 #section01 {
+  padding: 18% 0;
+  text-align: center;
+}
+/* line 9, ../sass/scroll-basic2.scss */
+.page-node-2 #section02 {
+  background-color: #595959;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+/* line 16, ../sass/scroll-basic2.scss */
+.page-node-2 #section02 .slide-block {
+  background-color: #fafafa;
+  height: 100%;
+  padding: 124px 100px;
+  position: absolute;
+  left: -100%;
+  text-align: center;
+  width: 100%;
+}
+/* line 25, ../sass/scroll-basic2.scss */
+.page-node-2 #section02 .slide-block img {
+  width: 200px;
+}
