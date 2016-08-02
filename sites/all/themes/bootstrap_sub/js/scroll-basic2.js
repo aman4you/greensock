@@ -20,7 +20,9 @@
 
 		wipeAnimation
 			.fromTo(".slide-manual.second", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})
-			.fromTo(".slide-manual.third", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})
+			.fromTo(".slide-manual.first", 1, {x: "0%"}, {x: "100%", ease: Linear.easeNone}, 0)
+			.fromTo(".slide-manual.second", 1, {y: "0%"}, {y: "-100%", ease: Linear.easeNone}, 1)
+			.fromTo(".slide-manual.third", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}, 1)
 			.fromTo(".slide-manual.fourth", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone});
 
 		new ScrollMagic.Scene({
