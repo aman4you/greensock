@@ -1,18 +1,19 @@
 /* line 1, ../sass/css3-animate1.scss */
 .element-block {
-  margin: 280px auto 400px;
-  max-width: 700px;
+  height: 700px;
+  position: relative;
+  width: 100%;
 }
 
-/* line 6, ../sass/css3-animate1.scss */
+/* line 7, ../sass/css3-animate1.scss */
 .element {
-  margin: 0 auto;
-  width: 70px;
-  height: 70px;
   background-color: #009966;
   border-radius: 50%;
-  position: relative;
   bottom: 0;
+  height: 65px;
+  left: 48%;
+  position: absolute;
+  width: 65px;
   animation: bounce_ball 1.2s infinite;
 }
 
@@ -29,12 +30,22 @@
     bottom: 100px;
   }
 }
-/* line 31, ../sass/css3-animate1.scss */
-.content-block {
-  background-color: #cbcbcb;
+/* line 32, ../sass/css3-animate1.scss */
+.content-block-left, .content-block-right {
+  background-color: #2a2a2a;
+  color: #ffffff;
   height: 300px;
-  margin-bottom: 150px;
-  margin-left: 20px;
   padding: 20px;
-  width: 50%;
+  width: 49.8%;
+  display: inline-block;
+}
+
+/* line 41, ../sass/css3-animate1.scss */
+.bottom-block {
+  background-color: #eaeaea;
+  color: #ffffff;
+  height: 300px;
+  margin: 50px 0;
+  padding: 20px;
+  width: 100%;
 }
