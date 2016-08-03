@@ -15,6 +15,37 @@
 			.addTo(controller);
 		}
 
+		// Wipe content.
+		var wipeContent = new TimelineMax();
+
+		wipeContent
+			.fromTo(".slide-natural.second h2", 1, {marginTop: "-526px"}, {marginTop: "120px", ease: Linear.easeNone});
+
+		new ScrollMagic.Scene({
+			triggerElement: '.slide-natural.first',
+			triggerHook: 0,
+			duration: '100%'
+		})
+		.setTween(wipeContent)
+		.addTo(controller);
+
+		// Move content.
+		var moveContent = new TimelineMax();
+
+		moveContent
+			.to(".slide-natural.third h2", 1, {left: "26%", ease: Linear.easeNone})
+			.to(".slide-natural.third h2", 1, {top: "50%", ease: Linear.easeNone})
+			.to(".slide-natural.third h2", 1, {left: "-26%", ease: Linear.easeNone})
+			.to(".slide-natural.third h2", 1, {top: "0%", ease: Linear.easeNone});
+
+		new ScrollMagic.Scene({
+			triggerElement: '.slide-natural.third',
+			triggerHook: 0,
+			duration: '400%'
+		})
+		.setTween(moveContent)
+		.addTo(controller);
+
 		// Slide manual.
 		var wipeAnimation = new TimelineMax();
 

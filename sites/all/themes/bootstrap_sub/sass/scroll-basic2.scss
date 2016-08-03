@@ -11,7 +11,7 @@
 	.slide-natural {
 		height: 645px;
 		width: 100%;
-		margin-bottom: 800px;
+		text-align: center;
 
 		b {
 			color: white;
@@ -21,6 +21,43 @@
 			text-align: center;
 			text-transform: uppercase;
 			top: 50%;
+		}
+
+		h2 {
+			font-family: "Luckiest Guy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+			font-size: 150px;
+			font-weight: normal;
+			padding: 60px;
+			display: inline-block;
+			text-shadow: 0 2px 1px #000;
+			text-transform: uppercase;
+		}
+
+		&.first {
+			color: #38CED7;
+		}
+
+		&.second {
+			color: #3883D8;
+			overflow: hidden;
+
+			h2 {
+				display: block;
+			}
+		}
+
+		&.third {
+			margin-bottom: 2700px;
+
+			h2 {
+				left: -26%;
+				margin: auto;
+				position: relative;
+			}
+		}
+
+		&.fourth {
+			margin-bottom: 1200px;
 		}
 	}
 

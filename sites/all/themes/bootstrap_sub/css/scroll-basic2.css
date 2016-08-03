@@ -12,7 +12,7 @@
 .page-node-2 .slide-natural {
   height: 645px;
   width: 100%;
-  margin-bottom: 800px;
+  text-align: center;
 }
 /* line 16, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-natural b {
@@ -24,35 +24,72 @@
   text-transform: uppercase;
   top: 50%;
 }
-/* line 27, ../sass/scroll-basic2.scss */
+/* line 26, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural h2 {
+  font-family: "Luckiest Guy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+  font-size: 150px;
+  font-weight: normal;
+  padding: 60px;
+  display: inline-block;
+  text-shadow: 0 2px 1px #000;
+  text-transform: uppercase;
+}
+/* line 36, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural.first {
+  color: #38CED7;
+}
+/* line 40, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural.second {
+  color: #3883D8;
+  overflow: hidden;
+}
+/* line 44, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural.second h2 {
+  display: block;
+}
+/* line 49, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural.third {
+  margin-bottom: 2700px;
+}
+/* line 52, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural.third h2 {
+  left: -26%;
+  margin: auto;
+  position: relative;
+}
+/* line 59, ../sass/scroll-basic2.scss */
+.page-node-2 .slide-natural.fourth {
+  margin-bottom: 1200px;
+}
+/* line 64, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-natural.first {
   background-color: #3883d8;
 }
-/* line 31, ../sass/scroll-basic2.scss */
+/* line 68, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-natural.second {
   background-color: #38CED7;
 }
-/* line 35, ../sass/scroll-basic2.scss */
+/* line 72, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-natural.third {
   background-color: #22D659;
 }
-/* line 39, ../sass/scroll-basic2.scss */
+/* line 76, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-natural.fourth {
   background-color: #953543;
 }
-/* line 44, ../sass/scroll-basic2.scss */
+/* line 81, ../sass/scroll-basic2.scss */
 .page-node-2 #pinContainer {
   width: 100%;
   height: 648px;
   overflow: hidden;
 }
-/* line 50, ../sass/scroll-basic2.scss */
+/* line 87, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-manual {
   height: 100%;
   width: 100%;
   position: absolute;
 }
-/* line 55, ../sass/scroll-basic2.scss */
+/* line 92, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-manual b {
   color: white;
   display: block;
@@ -62,19 +99,19 @@
   text-transform: uppercase;
   top: 50%;
 }
-/* line 66, ../sass/scroll-basic2.scss */
+/* line 103, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-manual.first {
   background-color: #3883d8;
 }
-/* line 70, ../sass/scroll-basic2.scss */
+/* line 107, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-manual.second {
   background-color: #38CED7;
 }
-/* line 74, ../sass/scroll-basic2.scss */
+/* line 111, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-manual.third {
   background-color: #22D659;
 }
-/* line 78, ../sass/scroll-basic2.scss */
+/* line 115, ../sass/scroll-basic2.scss */
 .page-node-2 .slide-manual.fourth {
   background-color: #953543;
 }

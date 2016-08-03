@@ -3,13 +3,13 @@
 </div>
 
 <section class="slide-natural first">
-	<b>One</b>
+	<h2>Slide It</h2>
 </section>
 <section class="slide-natural second">
-	<b>Two</b>
+	<h2>Wipe It</h2>
 </section>
 <section class="slide-natural third">
-	<b>Three</b>
+	<h2>Move It</h2>
 </section>
 <section class="slide-natural fourth">
 	<b>Four</b>
