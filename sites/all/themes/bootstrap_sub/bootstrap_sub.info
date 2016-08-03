@@ -26,6 +26,7 @@ regions[page_bottom]    = 'Page bottom'
 
 ; Add style sheets
 stylesheets[all][] = css/manutd-home.css
+stylesheets[all][] = css/flyacts-home.css
 stylesheets[all][] = css/scroll-basic2.css
 stylesheets[all][] = css/scroll-basic.css
 stylesheets[all][] = css/green-basic.css
@@ -36,6 +37,7 @@ stylesheets[all][] = css/cssLib/animate.css
 
 ; Add script
 scripts[] = js/manutd-home.js
+scripts[] = js/flyacts-home.js
 scripts[] = js/scroll-basic2.js
 scripts[] = js/green-basic.js
 scripts[] = js/scroll-basic.js
