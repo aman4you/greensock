@@ -7,7 +7,7 @@
 .cloud-image {
   background: url("/sites/all/themes/bootstrap_sub/img/cloud.png") repeat 0 0;
   height: 230px;
-  margin: 100px 0 200px 0;
+  margin: 100px 0 320px;
   width: 140%;
   animation: cloud_flow 2s linear 0s infinite alternate;
 }
@@ -29,7 +29,7 @@
 .internet-area {
   margin: auto;
   width: 80%;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 /* line 34, ../sass/techcelx-home.scss */
 .internet-area .main-image img {
@@ -37,7 +37,7 @@
 }
 /* line 38, ../sass/techcelx-home.scss */
 .internet-area .left-container, .internet-area .main-image, .internet-area .right-container {
-  width: 32%;
+  width: 30%;
   vertical-align: top;
   display: inline-block;
 }

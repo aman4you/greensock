@@ -1,32 +1,49 @@
-/* line 1, ../sass/flyacts-home.scss */
+/* line 5, ../sass/flyacts-home.scss */
 .section1 {
   background: #c1c0c5 url("/sites/all/themes/bootstrap_sub/img/section1_header.jpg") no-repeat scroll center top/auto 768px;
   width: 100%;
-  display: inline-block;
+  display: block;
 }
-/* line 6, ../sass/flyacts-home.scss */
+/* line 10, ../sass/flyacts-home.scss */
 .section1 .intro {
-  color: #ffffff;
-  font-size: 18px;
-  padding-top: 500px;
+  padding-top: 636px;
   text-align: center;
+  position: relative;
+}
+/* line 16, ../sass/flyacts-home.scss */
+.section1 .scroll-down {
+  width: 70px;
+  bottom: 0;
+  position: absolute;
+  animation-name: scroll_down;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-/* line 14, ../sass/flyacts-home.scss */
+@keyframes scroll_down {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 10px;
+  }
+}
+/* line 37, ../sass/flyacts-home.scss */
 .section2 {
   background-image: linear-gradient(#c6c5ca, #ffffff);
   display: inline-block;
-  height: 1000px;
+  height: 800px;
   width: 100%;
 }
-/* line 20, ../sass/flyacts-home.scss */
+/* line 43, ../sass/flyacts-home.scss */
 .section2 .section2-inner {
   margin: auto;
   padding-top: 60px;
   width: 70%;
   position: relative;
 }
-/* line 27, ../sass/flyacts-home.scss */
+/* line 50, ../sass/flyacts-home.scss */
 .section2 .green-icon {
   display: block;
   margin: auto;
@@ -34,43 +51,428 @@
   transform: scale(0);
   transition: all 0.4s linear 0s;
 }
-/* line 35, ../sass/flyacts-home.scss */
+/* line 58, ../sass/flyacts-home.scss */
 .section2 .line {
-  margin-top: -1px;
   background-color: #9f9f9f;
   transition: all 0.4s linear 0s;
 }
-/* line 41, ../sass/flyacts-home.scss */
-.section2 .line-block {
-  top: 137px;
-  width: 50%;
-  text-align: right;
-  position: absolute;
-}
-/* line 48, ../sass/flyacts-home.scss */
+/* line 63, ../sass/flyacts-home.scss */
 .section2 .line1 {
   height: 0px;
-  width: 2px;
-  margin: auto;
-  text-align: center;
+  width: 1px;
+  margin-left: 50%;
+  margin-top: -1px;
+  transition-delay: 0.3s;
 }
-/* line 55, ../sass/flyacts-home.scss */
+/* line 71, ../sass/flyacts-home.scss */
 .section2 .line2 {
-  height: 3px;
-  width: 0%;
+  width: 0;
+  height: 1px;
+  float: right;
+  margin-right: 49.8%;
+  transition-delay: 0.6s;
+}
+/* line 79, ../sass/flyacts-home.scss */
+.section2 .line3 {
+  height: 0px;
+  width: 1px;
+  float: left;
+  transition-delay: 1s;
+}
+/* line 86, ../sass/flyacts-home.scss */
+.section2 .line4 {
+  width: 0;
+  height: 1px;
+  transition-delay: 1.3s;
+}
+/* line 92, ../sass/flyacts-home.scss */
+.section2 .line5 {
+  height: 0px;
+  width: 1px;
+  margin-left: 99.9%;
+  transition-delay: 1.6s;
+}
+/* line 99, ../sass/flyacts-home.scss */
+.section2 .line6 {
+  width: 0;
+  height: 1px;
+  float: right;
+  transition-delay: 1.9s;
+}
+/* line 106, ../sass/flyacts-home.scss */
+.section2 .line7 {
+  width: 1px;
+  height: 0px;
+  margin-left: 30%;
+  transition-delay: 2.1s;
+}
+/* line 113, ../sass/flyacts-home.scss */
+.section2 .line8 {
+  height: 1px;
+  width: 0px;
+  margin-left: 30%;
+  transition-delay: 2.4s;
+}
+/* line 120, ../sass/flyacts-home.scss */
+.section2 .line9 {
+  width: 1px;
+  height: 0px;
+  margin-left: 49.8%;
+  transition-delay: 2.7s;
+}
+/* line 127, ../sass/flyacts-home.scss */
+.section2 .mac-block {
+  margin: 30px;
+  vertical-align: top;
+}
+/* line 131, ../sass/flyacts-home.scss */
+.section2 .mac-block img {
+  opacity: 0;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+/* line 137, ../sass/flyacts-home.scss */
+.section2 .mac-block .mac {
+  width: 33.5%;
+  transition-delay: 3s;
+}
+/* line 142, ../sass/flyacts-home.scss */
+.section2 .mac-block .macbook {
+  width: 36%;
+  transition-delay: 3.2s;
+}
+/* line 147, ../sass/flyacts-home.scss */
+.section2 .mac-block .ipad {
+  width: 10%;
+  transition-delay: 3.4s;
+}
+/* line 152, ../sass/flyacts-home.scss */
+.section2 .mac-block .iphone {
+  width: 5%;
+  transition-delay: 3.6s;
+}
+/* line 158, ../sass/flyacts-home.scss */
+.section2 .app-block {
+  position: absolute;
+  right: 50px;
+  top: 470px;
+}
+/* line 163, ../sass/flyacts-home.scss */
+.section2 .app-block img {
+  opacity: 0;
+  width: 112px;
+  margin-right: 20px;
+}
+/* line 169, ../sass/flyacts-home.scss */
+.section2 .app-block .windows {
+  transition-delay: 3.8s;
+}
+/* line 173, ../sass/flyacts-home.scss */
+.section2 .app-block .blackberry {
+  transition-delay: 4s;
+}
+/* line 177, ../sass/flyacts-home.scss */
+.section2 .app-block .apple {
+  transition-delay: 4.2s;
+}
+/* line 181, ../sass/flyacts-home.scss */
+.section2 .app-block .android {
+  transition-delay: 4.4s;
+}
+/* line 186, ../sass/flyacts-home.scss */
+.section2 .blue-dot {
+  width: 20px;
   display: inline-block;
-  transition-delay: 0.5s;
+  margin-left: 49%;
+  margin-top: -5px;
+  transform: scale(0) translateY(-17px);
+  transition: all 0.4s linear 4.6s;
 }
 
-/* line 64, ../sass/flyacts-home.scss */
+/* line 197, ../sass/flyacts-home.scss */
 .section2.show .green-icon {
   transform: scale(1);
 }
-/* line 68, ../sass/flyacts-home.scss */
+/* line 201, ../sass/flyacts-home.scss */
 .section2.show .line1 {
+  height: 40px;
+}
+/* line 205, ../sass/flyacts-home.scss */
+.section2.show .line2 {
+  width: 50.2%;
+}
+/* line 209, ../sass/flyacts-home.scss */
+.section2.show .line3 {
+  height: 295px;
+}
+/* line 213, ../sass/flyacts-home.scss */
+.section2.show .line4 {
+  width: 100%;
+}
+/* line 217, ../sass/flyacts-home.scss */
+.section2.show .line5 {
+  height: 100px;
+}
+/* line 221, ../sass/flyacts-home.scss */
+.section2.show .line6 {
+  width: 70%;
+}
+/* line 225, ../sass/flyacts-home.scss */
+.section2.show .line7 {
+  height: 100px;
+}
+/* line 229, ../sass/flyacts-home.scss */
+.section2.show .line8 {
+  width: 20%;
+}
+/* line 233, ../sass/flyacts-home.scss */
+.section2.show .line9 {
+  height: 120px;
+}
+/* line 238, ../sass/flyacts-home.scss */
+.section2.show .mac-block img {
+  opacity: 1;
+}
+/* line 244, ../sass/flyacts-home.scss */
+.section2.show .app-block img {
+  opacity: 1;
+}
+/* line 249, ../sass/flyacts-home.scss */
+.section2.show .blue-dot {
+  transform: scale(1) translateY(0px);
+}
+
+/* line 255, ../sass/flyacts-home.scss */
+.section3 {
+  background-color: #fff;
+  height: 1228px;
+}
+/* line 259, ../sass/flyacts-home.scss */
+.section3 .section3-inner {
+  margin: auto;
+  padding-top: 60px;
+  width: 70%;
+  position: relative;
+}
+/* line 266, ../sass/flyacts-home.scss */
+.section3 .blue-icon {
+  display: block;
+  margin: auto;
+  width: 32px;
+  opacity: 0;
+}
+/* line 273, ../sass/flyacts-home.scss */
+.section3 .line {
+  background-color: #9f9f9f;
+  transition: all 0.4s linear 0s;
+}
+/* line 278, ../sass/flyacts-home.scss */
+.section3 .line1 {
+  height: 0px;
+  width: 1px;
+  margin-left: 50%;
+  margin-top: -1px;
+  transition-delay: 0.3s;
+}
+/* line 286, ../sass/flyacts-home.scss */
+.section3 .line2 {
+  width: 0;
+  height: 1px;
+  margin-left: 50%;
+  transition-delay: 0.6s;
+}
+/* line 293, ../sass/flyacts-home.scss */
+.section3 .line3 {
+  height: 0px;
+  width: 1px;
+  float: right;
+  transition-delay: 1s;
+}
+/* line 300, ../sass/flyacts-home.scss */
+.section3 .line4 {
+  width: 0;
+  height: 1px;
+  float: right;
+  transition-delay: 1.3s;
+}
+/* line 307, ../sass/flyacts-home.scss */
+.section3 .line5 {
+  height: 0px;
+  width: 1px;
+  margin-left: 19.8%;
+  transition-delay: 1.6s;
+}
+/* line 314, ../sass/flyacts-home.scss */
+.section3 .line6 {
+  width: 0;
+  height: 1px;
+  margin-left: 19.8%;
+  transition-delay: 1.9s;
+}
+/* line 321, ../sass/flyacts-home.scss */
+.section3 .line7 {
+  width: 1px;
+  height: 0px;
+  margin-left: 99.7%;
+  transition-delay: 2.1s;
+}
+/* line 328, ../sass/flyacts-home.scss */
+.section3 .dot-icon {
+  opacity: 0;
+  width: 12px;
+  float: left;
+  transition: all 0.2s linear 0s;
+}
+/* line 334, ../sass/flyacts-home.scss */
+.section3 .dot-icon.first {
+  margin-left: 49.4%;
+  margin-top: -58px;
+  transition-delay: 2.3s;
+}
+/* line 340, ../sass/flyacts-home.scss */
+.section3 .dot-icon.fourth {
+  margin-left: 82%;
+  margin-top: -12px;
+  transition-delay: 2.6s;
+}
+/* line 346, ../sass/flyacts-home.scss */
+.section3 .dot-icon.third {
+  margin-left: 82%;
+  margin-top: -12px;
+  transition-delay: 3.2s;
+}
+/* line 352, ../sass/flyacts-home.scss */
+.section3 .dot-icon.second {
+  margin-left: 56%;
+  margin-top: -7px;
+  transition-delay: 3.8s;
+}
+/* line 359, ../sass/flyacts-home.scss */
+.section3 .device-block {
+  margin: 30px;
+  text-align: right;
+  vertical-align: top;
+}
+/* line 364, ../sass/flyacts-home.scss */
+.section3 .device-block img {
+  opacity: 0;
+  margin-left: 55px;
+  vertical-align: bottom;
+  transition: all 0.4s linear 0s;
+}
+/* line 371, ../sass/flyacts-home.scss */
+.section3 .device-block .laptop {
+  width: 275px;
+  transition-delay: 2.9s;
+}
+/* line 376, ../sass/flyacts-home.scss */
+.section3 .device-block .tablet {
+  width: 90px;
+  transition-delay: 3.5s;
+}
+/* line 381, ../sass/flyacts-home.scss */
+.section3 .device-block .phone {
+  width: 60px;
+  transition-delay: 4.1s;
+}
+/* line 387, ../sass/flyacts-home.scss */
+.section3 .bubble-block {
+  margin-left: 149px;
+  transform: translateY(-46px);
+}
+/* line 391, ../sass/flyacts-home.scss */
+.section3 .bubble-block img {
+  opacity: 0;
+  width: 80px;
+  position: absolute;
+  transition: all 0.5s ease-in 0s;
+}
+/* line 398, ../sass/flyacts-home.scss */
+.section3 .bubble-block .first {
+  transform: scale(0);
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+}
+/* line 404, ../sass/flyacts-home.scss */
+.section3 .bubble-block .second {
+  left: 0;
+  transform: scale(0);
+  transition-delay: 1s;
+}
+/* line 410, ../sass/flyacts-home.scss */
+.section3 .bubble-block .third {
+  left: 0;
+  transform: scale(0);
+  transition-delay: 2s;
+}
+/* line 418, ../sass/flyacts-home.scss */
+.section3 .bubble-block.bubble img {
+  opacity: 1;
+}
+/* line 422, ../sass/flyacts-home.scss */
+.section3 .bubble-block.bubble .first {
+  transform: scale(1);
+}
+/* line 426, ../sass/flyacts-home.scss */
+.section3 .bubble-block.bubble .second {
+  left: 46%;
+  transform: scale(1);
+}
+/* line 431, ../sass/flyacts-home.scss */
+.section3 .bubble-block.bubble .third {
+  left: 94%;
+  transform: scale(1);
+}
+
+/* line 439, ../sass/flyacts-home.scss */
+.section3.show .blue-icon {
+  opacity: 1;
+}
+/* line 443, ../sass/flyacts-home.scss */
+.section3.show .line1 {
   height: 60px;
 }
-/* line 72, ../sass/flyacts-home.scss */
-.section2.show .line2 {
-  width: 100%;
+/* line 447, ../sass/flyacts-home.scss */
+.section3.show .line2 {
+  width: 50%;
+}
+/* line 451, ../sass/flyacts-home.scss */
+.section3.show .line3 {
+  height: 205px;
+}
+/* line 455, ../sass/flyacts-home.scss */
+.section3.show .line4 {
+  width: 80%;
+}
+/* line 459, ../sass/flyacts-home.scss */
+.section3.show .line5 {
+  height: 200px;
+}
+/* line 463, ../sass/flyacts-home.scss */
+.section3.show .line6 {
+  width: 80%;
+}
+/* line 467, ../sass/flyacts-home.scss */
+.section3.show .line7 {
+  height: 200px;
+}
+/* line 471, ../sass/flyacts-home.scss */
+.section3.show .dot-icon {
+  opacity: 1;
+}
+/* line 474, ../sass/flyacts-home.scss */
+.section3.show .dot-icon.first {
+  margin-top: -7px;
+}
+/* line 478, ../sass/flyacts-home.scss */
+.section3.show .dot-icon.third {
+  margin-left: 56.5%;
+}
+/* line 482, ../sass/flyacts-home.scss */
+.section3.show .dot-icon.second {
+  margin-left: 42.4%;
+}
+/* line 488, ../sass/flyacts-home.scss */
+.section3.show .device-block img {
+  opacity: 1;
 }

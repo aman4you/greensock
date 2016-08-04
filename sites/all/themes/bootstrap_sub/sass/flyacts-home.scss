@@ -1,20 +1,43 @@
+@import "compass/css3/";
+@import 'variables';
+
+// ====================Section 1=================================================
 .section1 {
 	background: #c1c0c5 url("/sites/all/themes/bootstrap_sub/img/section1_header.jpg") no-repeat scroll center top / auto 768px;
 	width: 100%;
-	display: inline-block;
+	display: block;
 
 	.intro {
-		color: #ffffff;
-		font-size: 18px;
-		padding-top: 500px;
+		padding-top: 636px;
 		text-align: center;
+		position: relative;
+	}
+
+	.scroll-down {
+		width: 70px;
+		bottom: 0;
+		position: absolute;
+		animation-name: scroll_down;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
 	}
 }
 
+@keyframes scroll_down {
+    from {
+    	bottom: 0;
+    }
+    to {
+        bottom: 10px;
+    }
+}
+
+// ======================Section 2================================================
 .section2 {
 	background-image: linear-gradient(#c6c5ca, #ffffff);
 	display: inline-block;
-	height: 1000px;
+	height: 800px;
 	width: 100%;
 
 	.section2-inner {
@@ -33,30 +56,140 @@
 	}
 
 	.line {
-		margin-top: -1px;
 		background-color: #9f9f9f;
 		transition: all 0.4s linear 0s;
 	}
 
-	.line-block {
-		top: 137px;
-		width: 50%;
-		text-align: right;
-		position: absolute;
-	}
-
 	.line1 {
 		height: 0px;
-		width: 2px;
-		margin: auto;
-		text-align: center;
+		width: 1px;
+		margin-left: 50%;
+		margin-top: -1px;
+		transition-delay: $section1-delay + 0.3s;
 	}
 
 	.line2 {
-		height: 3px;
-		width: 0%;
+		width: 0;
+		height: 1px;
+		float: right;
+		margin-right: 49.8%;
+		transition-delay: $section1-delay + 0.6s;
+	}
+
+	.line3 {
+		height: 0px;
+		width: 1px;
+		float: left;
+		transition-delay: $section1-delay + 1s;
+	}
+
+	.line4 {
+		width: 0;
+		height: 1px;
+		transition-delay: $section1-delay + 1.3s;
+	}
+
+	.line5 {
+		height: 0px;
+		width: 1px;
+		margin-left: 99.9%;
+		transition-delay: $section1-delay + 1.6s;
+	}
+
+	.line6 {
+		width: 0;
+		height: 1px;
+		float: right;
+		transition-delay: $section1-delay + 1.9s;
+	}
+
+	.line7 {
+		width: 1px;
+		height: 0px;
+		margin-left: 30%;
+		transition-delay: $section1-delay + 2.1s;
+	}
+
+	.line8 {
+		height: 1px;
+		width: 0px;
+		margin-left: 30%;
+		transition-delay: $section1-delay + 2.4s;
+	}
+
+	.line9 {
+		width: 1px;
+		height: 0px;
+		margin-left: 49.8%;
+		transition-delay: $section1-delay + 2.7s;
+	}
+
+	.mac-block {
+		margin: 30px;
+		vertical-align: top;
+
+		img {
+			opacity: 0;
+			margin-right: 20px;
+			vertical-align: bottom;
+		}
+
+		.mac {
+			width: 33.5%;
+			transition-delay: $section1-delay + 3.0s;
+		}
+
+		.macbook {
+			width: 36%;
+			transition-delay: $section1-delay + 3.2s;
+		}
+
+		.ipad {
+			width: 10%;
+			transition-delay: $section1-delay + 3.4s;
+		}
+
+		.iphone {
+			width: 5%;
+			transition-delay: $section1-delay + 3.6s;
+		}
+	}
+
+	.app-block {
+		position: absolute;
+		right: 50px;
+		top: 470px;
+
+		img {
+			opacity: 0;
+			width: 112px;
+			margin-right: 20px;
+		}
+
+		.windows {
+			transition-delay: $section1-delay + 3.8s;
+		}
+
+		.blackberry {
+			transition-delay: $section1-delay + 4s;
+		}
+
+		.apple {
+			transition-delay: $section1-delay + 4.2s;
+		}
+
+		.android {
+			transition-delay: $section1-delay + 4.4s;
+		}
+	}
+
+	.blue-dot {
+		width: 20px;
 		display: inline-block;
-		transition-delay: 0.5s;
+		margin-left: 49%;
+		margin-top: -5px;
+		transform: scale(0) translateY(-17px);
+		transition: all 0.4s linear $section1-delay + 4.6s;
 	}
 }
 
@@ -66,10 +199,294 @@
 	}
 
 	.line1 {
+		height: 40px;
+	}
+
+	.line2 {
+		width: 50.2%;
+	}
+
+	.line3 {
+		height: 295px;
+	}
+
+	.line4 {
+		width: 100%;
+	}
+
+	.line5 {
+		height: 100px;
+	}
+
+	.line6 {
+		width: 70%;
+	}
+
+	.line7 {
+		height: 100px;
+	}
+
+	.line8 {
+		width: 20%;
+	}
+
+	.line9 {
+		height: 120px;
+	}
+
+	.mac-block {
+		img {
+			opacity: 1;
+		}
+	}
+
+	.app-block {
+		img {
+			opacity: 1;
+		}
+	}
+
+	.blue-dot {
+		transform: scale(1) translateY(0px);
+	}
+}
+
+// ======================Section 3===============================================
+.section3 {
+	background-color: #fff;
+	height: 1228px;
+
+	.section3-inner {
+		margin: auto;
+		padding-top: 60px;
+		width: 70%;
+		position: relative;
+	}
+
+	.blue-icon {
+		display: block;
+		margin: auto;
+		width: 32px;
+		opacity: 0;
+	}
+
+	.line {
+		background-color: #9f9f9f;
+		transition: all 0.4s linear 0s;
+	}
+
+	.line1 {
+		height: 0px;
+		width: 1px;
+		margin-left: 50%;
+		margin-top: -1px;
+		transition-delay: $section2-delay + 0.3s;
+	}
+
+	.line2 {
+		width: 0;
+		height: 1px;
+		margin-left: 50%;
+		transition-delay: $section2-delay + 0.6s;
+	}
+
+	.line3 {
+		height: 0px;
+		width: 1px;
+		float: right;
+		transition-delay: $section2-delay + 1s;
+	}
+
+	.line4 {
+		width: 0;
+		height: 1px;
+		float: right;
+		transition-delay: $section2-delay + 1.3s;
+	}
+
+	.line5 {
+		height: 0px;
+		width: 1px;
+		margin-left: 19.8%;
+		transition-delay: $section2-delay + 1.6s;
+	}
+
+	.line6 {
+		width: 0;
+		height: 1px;
+		margin-left: 19.8%;
+		transition-delay: $section2-delay + 1.9s;
+	}
+
+	.line7 {
+		width: 1px;
+		height: 0px;
+		margin-left: 99.7%;
+		transition-delay: $section2-delay + 2.1s;
+	}
+
+	.dot-icon {
+		opacity: 0;
+		width: 12px;
+		float: left;
+		transition: all 0.2s linear 0s;
+
+		&.first {
+			margin-left: 49.4%;
+			margin-top: -58px;
+			transition-delay: $section2-delay + 2.3s;
+		}
+
+		&.fourth {
+			margin-left: 82%;
+			margin-top: -12px;
+			transition-delay: $section2-delay + 2.6s;
+		}
+
+		&.third {
+			margin-left: 82%;
+			margin-top: -12px;
+			transition-delay: $section2-delay + 3.2s;
+		}
+
+		&.second {
+			margin-left: 56%;
+			margin-top: -7px;
+			transition-delay: $section2-delay + 3.8s;
+		}
+	}
+
+	.device-block {
+		margin: 30px;
+		text-align: right;
+		vertical-align: top;
+
+		img {
+			opacity: 0;
+			margin-left: 55px;
+			vertical-align: bottom;
+			transition: all 0.4s linear 0s;
+		}
+
+		.laptop {
+			width: 275px;
+			transition-delay: $section2-delay + 2.9s;
+		}
+
+		.tablet {
+			width: 90px;
+			transition-delay: $section2-delay + 3.5s;
+		}
+
+		.phone {
+			width: 60px;
+			transition-delay: $section2-delay + 4.1s;
+		}
+	}
+
+	.bubble-block {
+		margin-left: 149px;
+		transform: translateY(-46px);
+
+		img {
+			opacity: 0;
+			width: 80px;
+			position: absolute;
+			transition: all 0.5s ease-in 0s;
+		}
+
+		.first {
+			transform: scale(0);
+			transition-duration: 0.3s;
+			transition-delay: $section2-bubble-delay + 0.1s;
+		}
+
+		.second {
+			left: 0;
+			transform: scale(0);
+			transition-delay: $section2-bubble-delay + 1s;
+		}
+
+		.third {
+			left: 0;
+			transform: scale(0);
+			transition-delay: $section2-bubble-delay + 2s;
+		}
+	}
+
+	.bubble-block.bubble {
+		img {
+			opacity: 1;
+		}
+
+		.first {
+			transform: scale(1);
+		}
+
+		.second {
+			left: 46%;
+			transform: scale(1);
+		}
+
+		.third {
+			left: 94%;
+			transform: scale(1);
+		}
+	}
+}
+
+.section3.show {
+	.blue-icon {
+		opacity: 1;
+	}
+
+	.line1 {
 		height: 60px;
 	}
 
 	.line2 {
-		width: 100%;
+		width: 50%;
+	}
+
+	.line3 {
+		height: 205px;
+	}
+
+	.line4 {
+		width: 80%;
+	}
+
+	.line5 {
+		height: 200px;
+	}
+
+	.line6 {
+		width: 80%;
+	}
+
+	.line7 {
+		height: 200px;
+	}
+
+	.dot-icon {
+		opacity: 1;
+
+		&.first {
+			margin-top: -7px;
+		}
+
+		&.third {
+			margin-left: 56.5%;
+		}
+
+		&.second {
+			margin-left: 42.4%;
+		}
+	}
+
+	.device-block {
+		img {
+			opacity: 1;
+		}
 	}
 }
