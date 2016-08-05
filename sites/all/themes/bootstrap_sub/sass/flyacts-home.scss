@@ -9,27 +9,24 @@
 
 	.intro {
 		padding-top: 636px;
-		text-align: center;
 		position: relative;
 	}
 
 	.scroll-down {
 		width: 30px;
 		bottom: 0;
+		right: 49%;
 		position: absolute;
-		animation-name: scroll_down;
-		animation-duration: 1.5s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
+		animation: scroll_down 0.2s linear 0s infinite alternate;
 	}
 }
 
 @keyframes scroll_down {
     from {
-    	bottom: 0;
+    	bottom: 0px;
     }
     to {
-        bottom: 10px;
+        bottom: 5px;
     }
 }
 
