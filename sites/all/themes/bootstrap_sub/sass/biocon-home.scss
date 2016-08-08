@@ -1,0 +1,70 @@
+.page-node-7 {
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+
+	.left-slider {
+		width: 49%;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.research-main-block {
+		width: 47%;
+		overflow: hidden;
+		display: inline-block;		
+	}
+
+	.research-block {
+		width: 200%;
+		height: 224px;
+		display: table;
+		cursor: pointer;
+
+		.before-slide {
+			background-color: #7bc144;
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			width: 49.6%;
+			transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
+
+			.icon {
+				width: 127px;
+				height: 139px;
+				display: inline-block;
+				background: url("/sites/all/themes/bootstrap_sub/img/biocon.svg") no-repeat scroll -15px -5px;	
+			}
+		}
+
+		.after-slide {
+			background-color: #60a629;
+			display: table-cell;
+			color: #ffffff;
+			padding: 0 20px;
+			font-size: 16px;
+			vertical-align: middle;
+			width: 49.6%;
+			transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
+		}
+	}
+
+	.research-block:hover {
+		.before-slide, .after-slide {
+			transform: translateX(-100%);
+		}
+	}
+
+	.right-slider {
+		width: 49%;
+		display: inline-block;
+	}
+
+	.banner-container {
+		h3 {
+			margin: 0;
+			padding: 10px;
+			background-color: #ededed;
+		}
+	}
+}

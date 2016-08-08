@@ -32,7 +32,10 @@ stylesheets[all][] = css/green-basic.css
 stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/css3-animate1.css
 stylesheets[all][] = css/techcelx-home.css
+stylesheets[all][] = css/biocon-home.css
 stylesheets[all][] = css/cssLib/animate.css
+stylesheets[all][] = css/cssLib/slick.css
+stylesheets[all][] = css/cssLib/slick-theme.css
 
 ; Add script
 scripts[] = js/flyacts-home.js
@@ -40,5 +43,7 @@ scripts[] = js/scroll-basic2.js
 scripts[] = js/green-basic.js
 scripts[] = js/scroll-basic.js
 scripts[] = js/techcelx-home.js
+scripts[] = js/biocon-home.js
 scripts[] = js/css3-animate1.js
 scripts[] = js/jsLib/wow.min.js
+scripts[] = js/jsLib/slick.min.js
