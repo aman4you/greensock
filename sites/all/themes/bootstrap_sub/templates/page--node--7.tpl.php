@@ -10,14 +10,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="product">
-			
+		<div class="product-main-block wow swashIn" data-wow-delay="0.20s">
+			<div class="product-block">
+				<div class="before-slide">
+					<div class="icon"></div>
+				</div>
+				<div class="after-slide">
+					<p>We aim to develop novel biopharmaceuticals by leveraging our exceptional scientific talent pool and developmental capabilities.</p>
+				</div>
+			</div>
 		</div>
 		<div class="innovation">
 			
 		</div>
 	</div>
-	<div class="right-slider wow swashIn" data-wow-delay="0.25s">
+	<div class="right-slider wow swashIn" data-wow-delay="0.10s">
 		<div class="item">
 	    	<figure>
 	        	<img src="/sites/all/themes/bootstrap_sub/img/banner-01.jpg" alt="">

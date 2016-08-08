@@ -1,6 +1,6 @@
 /* line 1, ../sass/biocon-home.scss */
 .page-node-7 {
-  width: 80%;
+  width: 84%;
   margin: auto;
   margin-top: 100px;
 }
@@ -11,20 +11,24 @@
   display: inline-block;
 }
 /* line 12, ../sass/biocon-home.scss */
-.page-node-7 .research-main-block {
+.page-node-7 .research-main-block, .page-node-7 .product-main-block {
   width: 47%;
   overflow: hidden;
   display: inline-block;
 }
 /* line 18, ../sass/biocon-home.scss */
-.page-node-7 .research-block {
+.page-node-7 .product-main-block {
+  margin-left: 2.5%;
+}
+/* line 22, ../sass/biocon-home.scss */
+.page-node-7 .research-block, .page-node-7 .product-block {
   width: 200%;
-  height: 224px;
+  height: 270px;
   display: table;
   cursor: pointer;
 }
-/* line 24, ../sass/biocon-home.scss */
-.page-node-7 .research-block .before-slide {
+/* line 28, ../sass/biocon-home.scss */
+.page-node-7 .research-block .before-slide, .page-node-7 .product-block .before-slide {
   background-color: #7bc144;
   display: table-cell;
   text-align: center;
@@ -32,15 +36,15 @@
   width: 49.6%;
   transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
 }
-/* line 32, ../sass/biocon-home.scss */
-.page-node-7 .research-block .before-slide .icon {
+/* line 36, ../sass/biocon-home.scss */
+.page-node-7 .research-block .before-slide .icon, .page-node-7 .product-block .before-slide .icon {
   width: 127px;
   height: 139px;
   display: inline-block;
   background: url("/sites/all/themes/bootstrap_sub/img/biocon.svg") no-repeat scroll -15px -5px;
 }
-/* line 40, ../sass/biocon-home.scss */
-.page-node-7 .research-block .after-slide {
+/* line 44, ../sass/biocon-home.scss */
+.page-node-7 .research-block .after-slide, .page-node-7 .product-block .after-slide {
   background-color: #60a629;
   display: table-cell;
   color: #ffffff;
@@ -50,16 +54,33 @@
   width: 49.6%;
   transition: all 550ms cubic-bezier(0.45, 1, 0.32, 1) 0s;
 }
-/* line 53, ../sass/biocon-home.scss */
-.page-node-7 .research-block:hover .before-slide, .page-node-7 .research-block:hover .after-slide {
+/* line 54, ../sass/biocon-home.scss */
+.page-node-7 .research-block .after-slide p, .page-node-7 .product-block .after-slide p {
+  margin: 0;
+  text-align: justify;
+}
+/* line 62, ../sass/biocon-home.scss */
+.page-node-7 .product-block .before-slide {
+  background-color: #502e61;
+}
+/* line 65, ../sass/biocon-home.scss */
+.page-node-7 .product-block .before-slide .icon {
+  background-position: -134px -5px;
+}
+/* line 70, ../sass/biocon-home.scss */
+.page-node-7 .product-block .after-slide {
+  background-color: #382044;
+}
+/* line 76, ../sass/biocon-home.scss */
+.page-node-7 .research-block:hover .before-slide, .page-node-7 .research-block:hover .after-slide, .page-node-7 .product-block:hover .before-slide, .page-node-7 .product-block:hover .after-slide {
   transform: translateX(-100%);
 }
-/* line 58, ../sass/biocon-home.scss */
+/* line 81, ../sass/biocon-home.scss */
 .page-node-7 .right-slider {
   width: 49%;
   display: inline-block;
 }
-/* line 64, ../sass/biocon-home.scss */
+/* line 87, ../sass/biocon-home.scss */
 .page-node-7 .banner-container h3 {
   margin: 0;
   padding: 10px;
